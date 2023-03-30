@@ -1,0 +1,111 @@
+body {
+    background: url('https://mobimg.b-cdn.net/v3/fetch/8e/8e0c065fe670d5b6c49de9f5fea277a4.jpeg') 0 0/cover no-repeat;
+}
+
+input {
+    display: block;
+    margin-top: 2%;
+    width: 80%;
+    height: 35px;
+    background-color: rgba(241, 158, 158, 0.28);
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+textarea {
+    margin-top: 2%;
+    width: 80%;
+    background-color: rgba(241, 158, 158, 0.28);
+    border: 15px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.field_comments {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    border-left: 1px solid black;
+    margin-right: 5%;
+}
+
+.comments_area {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2%;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.chat_tittle {
+    display: block;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.inputs h2 {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.body_comments {
+    padding: 0 3%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.comment_send_button {
+    margin-top: 2%;
+    background-color: rgba(241, 158, 158, 0.8);
+    border: none;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.comment_send_button:hover {
+    background-color: rgba(241, 128, 128, 1);
+    height: 35px;
+}
+
+.time {
+    margin-left: 80%;
+    margin-top: 2%;
+    color: rgba(97, 73, 76, 0.7);
+    font-size: 14px;
+}
+
+.avatar {
+    float: left;
+    margin-right: 2%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: none;
+    background-color: rgba(241, 158, 158, 0.4);
+}
+
+.user_nickname {
+    margin: 0 1% 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #c96868;
+}
+
+.user_comment {
+    width: 100%;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: rgb(64, 56, 56);
+    margin-bottom: 3%;
+}
